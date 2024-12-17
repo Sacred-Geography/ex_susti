@@ -1,0 +1,75 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-family: 'Georgia', serif; /* Fuente más agradable */
+    text-transform: none; /* Evitar mayúsculas */
+}
+
+.subtitle {
+    color: #004d00; /* Verde oscuro */
+    margin-bottom: 10px;
+}
+
+.result-title {
+    color: #50C878; /* Verde esmeralda */
+    text-align: center; /* Centrar títulos */
+}
+
+.inputs .equation {
+    color: red; /* Color rojo para la parte numérica */
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="number"] {
+    padding: 10px;
+    width: 90%;
+    margin: 0 auto 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #50C878;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e9a5a;
+}
+
+.result {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center; /* Centrar contenido de resultados */
+}

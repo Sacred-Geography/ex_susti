@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Ecuaciones Cuadráticas</title>
+    <link rel="stylesheet" href="dw.css"> 
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Ecuaciones Cuadráticas</h1>
+        <h2 class="subtitle">Ingrese los coeficientes de la ecuación:</h2>
+        <div class="inputs">
+            <h2 class="equation">a(x<sup>2</sup>) + bx + c = 0</h2>
+            <form id="quadraticForm">
+                <label for="coeffA">Coeficiente a:</label>
+                <input type="number" id="coeffA" name="coeffA" step="0.01" required>
+                <label for="coeffB">Coeficiente b:</label>
+                <input type="number" id="coeffB" name="coeffB" step="0.01" required>
+                <label for="coeffC">Coeficiente c:</label>
+                <input type="number" id="coeffC" name="coeffC" step="0.01" required>
+                <button type="submit">Resolver</button>
+            </form>
+        </div>
+
+        <div class="result" id="equation">
+            <h3 class="result-title">Ecuación:</h3>
+            <p id="equationResult"></p>
+        </div>
+        <div class="result" id="roots">
+            <h3 class="result-title">Raíces:</h3>
+            <p id="rootsResult"></p>
+        </div>
+    </div>
+
+    <script src="dw.js"></script> 
+</body>
+</html>
